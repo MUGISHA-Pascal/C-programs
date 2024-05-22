@@ -39,5 +39,27 @@
 // return 0;
 // }
 
+//using structure
+// #include<stdio.h>
+// struct class{
+//     char *name;
+//     int marks;
+// };
+// int student3(){
+// struct class student3;
+// student3.name="kali";
+// student3.marks=20;
+// printf("%d",student3.marks);
+// return 0;
+// }
+// int main(){
+//     struct class student1;
+//     student1.name="kal";
+//     student1.marks=15;
+//     printf("the name is : %s and the marks are : %d\n",student1.name,student1.marks);
+//     printf("\t%s",student3());
+//     return 0;
+// }
+
 
 
