@@ -61,5 +61,82 @@
 //     return 0;
 // }
 
+//typedef usage
+// #include<stdio.h>
+// typedef char *chari;
+// int main(){
+//     chari var ="pascal";
+//     printf("%s",var);
+// return 0;
+// }
+
+// using typedef with structures
+// #include<stdio.h>
+// typedef struct class{
+//     char *name;
+//     int marks;
+// }student1;
+// int main(){
+//     student1 student2;
+//     student2.name="kal";
+//     printf("%s ",student2.name);
+//     return 0;
+// }
+
+// initialising and accessing structure members
+// #include<stdio.h>
+// struct numy{
+//     int num1;
+//     int num2;
+// };
+// int main(){
+//    struct numy struct1={1,2};
+//     printf("%d , %d",struct1.num1,struct1.num2);
+//     return 0;
+// }
+
+// designated initialisation
+// #include<stdio.h>
+// struct numy{
+// int num1;
+// int num2;
+// };
+// int main(){
+//     struct numy numx={.num2=2,.num1=1};
+//     printf("%d %d",numx.num1,numx.num2);
+//     return 0;
+// }
+
+// array of structures
+// #include <stdlib.h>
+// #include<stdio.h>
+// struct class{
+//     char *name;
+//     int marks;
+// };
+// int main(){
+// int i;
+// struct class ar[2];
+// for(i=0;i<2;i++){
+
+//     printf("student %d name is : ",i+1);
+//     // ar[i].name = malloc(sizeof(char) * 100);
+//     scanf("%s",&ar[i].name);
+//     printf("student %d marks is : ",i+1);
+//     scanf("%u",&ar[i].marks);
+    
+// }
+// int j;
+// for(j=0;j<2;j++){
+//     printf("the student %d info is :\n",j+1);
+//     printf("name: %s \n marks: %d\n",ar[j].name,ar[j].marks);
+// }
+// // int s;
+// // for(s=0;s<2;s++){
+// //     free(ar[s].name);
+// // };
+//  return 0;
+// }
+
 
 
