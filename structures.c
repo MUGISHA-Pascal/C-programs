@@ -138,5 +138,64 @@
 //  return 0;
 // }
 
+// pointers to structures
+// #include<stdio.h>
+// struct class{
+//     char *name;
+//     int marks;
+// };
+// int main(){
+//     struct class student={"pascal",32};
+//     struct class *ptr=&student;
+//     printf("%d %d",ptr->name,ptr->marks);
+//     printf("%d",(*ptr).name);
+//     return 0;
+// };
 
+// // comparison of structure variables
+// #include<stdio.h>
+// #include <stdbool.h>
+// struct numbers{
+//     int x;
+//     int y;
+// }p1,p2;
+// bool ifequal(struct numbers p2,struct numbers p4){
+//     return (p4.x == p2.x)&&(p2.y == p4.y);
+// }
+// int main(){
+//    struct numbers p1={1,2};
+//    struct numbers p3={1,2};
+// //    this cant compile
+//     // if (p1 == p3){
+//     //     printf("they are equal");
+//     // }else{
+//     //     printf("they are not equal");
+//     // };
+
+// // this can compile
+// if (ifequal(p1,p3)){
+//     printf("they are equal");
+// }else{
+//     printf("they are not equal");
+// }
+//     return 0;
+// }
+
+// // call by reference with structures
+// #include<stdio.h>
+// struct numbers{
+// int x;
+// int y;
+// };
+// void printing(int *x){
+//     *x += 1;
+//     printf("%d",*x);
+// }
+// int main(){
+//     struct numbers group1;
+//     group1.x=5;
+//     printing(&group1.x);
+//     printf("%d",group1.x);
+//     return 0;
+// }
 
