@@ -18,5 +18,24 @@ int main(){
 //     };
 //     fclose(fpointer);
 
+// // adding a string into the file
+// FILE *fpointer;
+// fpointer=fopen("file2.txt","w");
+// char text[30];
+// printf("enter a string you want to put in the file :");
+// gets(text);
+// fputs(text,fpointer);
+// fclose(fpointer);
+
+
+// fprintf method in c
+FILE *fpointer;
+fpointer=fopen("file3.txt","w");
+int age;
+char name[30];
+printf("enter your name and age :");
+scanf("%s\t%d",&name,&age);
+fprintf(fpointer,"%s\t%d",name,age);
+fclose(fpointer);
     return 0;
 }
