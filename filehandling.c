@@ -28,14 +28,32 @@ int main(){
 // fclose(fpointer);
 
 
-// fprintf method in c
-FILE *fpointer;
-fpointer=fopen("file3.txt","w");
-int age;
-char name[30];
-printf("enter your name and age :");
-scanf("%s\t%d",&name,&age);
-fprintf(fpointer,"%s\t%d",name,age);
-fclose(fpointer);
-    return 0;
+// // fprintf method in c
+// FILE *fpointer;
+// fpointer=fopen("file3.txt","w");
+// int age;
+// char name[30];
+// printf("enter your name and age :");
+// scanf("%s\t%d",&name,&age);
+// fprintf(fpointer,"%s\t%d",name,age);
+// fclose(fpointer);
+
+// //fgetc methon in c
+// FILE *fpointer;
+// fpointer=fopen("file1.txt","r");
+// while(!feof(fpointer)){
+// printf("%c",fgetc(fpointer));
+// };
+// fclose(fpointer);
+
+// //  fgets method in c
+// FILE *fpointer;
+// fpointer=fopen("file1.txt","r");
+// char text[30];
+// fgets(text,sizeof(text),fpointer);
+// printf("%s",text);
+// fclose(fpointer);
+
+
+return 0;
 }

@@ -212,7 +212,7 @@
 //     num.y=3;
 //     num.name="pas";
 //     struct numbers *ptr=&num;
-//     printf("%d and %d and %d",(*ptr).x,(*ptr).y,ptr->name);
+//     printf("%d and %d and %d",(*ptr).x,ptr->y,ptr->name);
 //     return 0;
 // }
 
