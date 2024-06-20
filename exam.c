@@ -2,7 +2,7 @@
 
 struct _COMPLEX{
     int first;
-    int second;
+    int seco nd;
     int third;
 }complex1;
 int main(){
